@@ -1,11 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #252525;
+}
+
 header {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
-body {
-  text-align: center;
-  align-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #55185d;
+
+header, main {
+  width: 85%;
+
+  margin-left: 15%;
+
+  color: #e5e5e5;
 }
+
+/* Code taken from W3schools*/
+nav {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 0px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: #573e5c;
+  height: 100%;
+  width: 15%;
+}
+
+nav ul {
+  list-style: none;
+
+  padding: 0;
+}
+
+.nav-links {
+  display: inline-block;
+
+  width: 75%;
+
+  margin-bottom: 15px;
+  padding: 10px 8px;
+
+  background-color: #ded17f  ;
+  color: #121212;
+
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+/* Highlights appear when the links are hovered over */
+.nav-links:hover {
+  display: inline-block;
+  background-color: #121212;
+  color: #e5e5e5;
+  font-style: italic;
+
+  border: 2px solid #ded17f  ;
+}
+
+h1 {
+  width: 63%;
+
+  margin: 15px auto;
+
+  padding: 10px 0;
+
+  background-color: #573e5c;
+}
+

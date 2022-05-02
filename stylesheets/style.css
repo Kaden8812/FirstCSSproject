@@ -1,20 +1,21 @@
-* {
-  box-sizing: border-box;
-}
+/* I chose the colors because they are the main colors of Wario, the main character in my game.
+I also chose Yellow to represent fun, as my game is meant to be fun to play, and make people's day a little better. 
+I chose purple because it can sometimes represent arrogance, which fits the character of Wario well. */
 
+/*This styles the content in the body tag to be centered, changes the font to Arial, helvetica sans serif, and changes the background color to the color #252525*/
 body {
   text-align: center;
   align-content: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Helvetica, sans-serif;
   background-color: #252525;
 }
-
+/*This styles content in the header to be centered, changes the font to Arial, helvetica sans serif, and changes the font size to 16px*/
 header {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
-
+/*This styles the header and main to have a width of 85%, a margin to the left of 15% and changes the text color to #e5e5e5*/
 header, main {
   width: 85%;
 
@@ -30,7 +31,7 @@ nav {
   top: 0; /* Stay at the top */
   left: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 0px; /* Place content 60px from the top */
+  padding-top: 0px; /* Place content 0px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   background-color: #573e5c;
   height: 100%;
@@ -68,7 +69,7 @@ nav ul {
 
   border: 2px solid #ded17f  ;
 }
-
+/*This styles h1s to have a width of 63%, a margin of 15px, a padding of 10px, 0px, and changes the background color to 573e5c*/
 h1 {
   width: 63%;
 

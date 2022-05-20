@@ -7,50 +7,30 @@
     <link rel="stylesheet" href="stylesheets/style.css" />
     <title>Characters</title>
     <style>
-      nav {
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
-        top: 0; /* Stay at the top */
-        left: 0;
-        overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 0px; /* Place content 60px from the top */
-        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: #ffd524;
-        height: 100%;
-        width: 200px;
-      }
-      * {
-        box-sizing: border-box;
-      }
-      li {
-        margin-bottom: 20px;
-      }
       figcaption {
-        background-color: #ffd524;
+        background-color: #573e5c;
         margin-left: 400px;
         margin-right: 400px;
         font-size: large;
         font-family: "Times New Roman", Times, serif;
       }
       h1 {
-        background-color: #ffd524;
-        margin-left: 600px;
+        background-color: #573e5c;
+        margin-left: 200px;
         margin-right: 600px;
       }
       h3 {
-        background-color: #ffd524;
+        background-color: #573e5c;
         margin-left: 470px;
         margin-right: 470px;
       }
-      #warioheading {
-        background-color: #ffd524;
-        margin-left: 640px;
-        margin-right: 620px;
+      .character-heading {
+        background-color: #573e5c;
+        margin-left: 400px;
+        margin-right: 400px;
       }
-      #krabsheading {
-        background-color: #ffd524;
-        margin-left: 600px;
-        margin-right: 600px;
+      #glitch{
+        margin-left: 900px;
       }
     </style>
   </head>
@@ -65,25 +45,19 @@
     <nav>
       <ul>
         <!--This is the navigation bar. -->
-        <a class="links" href="index.html"><li>Home</li></a>
-        <a class="links" href="story.html"><li>Story</li></a>
-        <a class="links" href="characters.html"><li>Characters</li></a>
-        <a class="links" href="under_construction.html"
-          ><li>Promotional art and teasers</li></a
-        >
-        <a class="links" href="under_construction.html"><li>Reviews</li></a>
-        <a class="links" href="under_construction.html"
-          ><li>Join the Discord server!</li></a
-        >
-        <a class="links" href="download.html"><li>Download now!</li></a>
-        <a class="links" href="under_construction.html"
-          ><li>Technical details</li></a
-        >
+        <a class="nav-links" href="index.html"><li>Home</li></a>
+        <a class="nav-links" href="story.html"><li>Story</li></a>
+        <a class="nav-links" href="characters.html"><li>Characters</li></a>
+        <a class="nav-links" href="under_construction.html"><li>Promotional art and teasers</li></a>
+        <a class="nav-links" href="reviews.html"><li>Reviews</li></a>
+        <a class="nav-links" href="under_construction.html"><li>Join the Discord server!</li></a>
+        <a class="nav-links" href="download.html"><li>Download now!</li></a>
+        <a class="nav-links" href="tech-details.html"><li>Technical details</li></a>
       </ul>
     </nav>
     <main>
       <figure>
-        <h2 id="warioheading">Wario</h2>
+        <h2 class="character-heading">Wario</h2>
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJCdtNSV8ZzTHz66qg3_9uLN86CvFjE6Pz2hkeE4NmrzY5ZxoNXVGFUyk3KWVRcRbOyl0&usqp=CAU"
           alt="Wario with his hands in a peace sign pose"
@@ -93,13 +67,24 @@
           The man, the myth, the legend himself, Wario! He is a fat, greedy,
           slob that got caught up in this "hero business".
         </figcaption>
+        <figure>
+          <h2 class="character-heading">Oreo</h2>
+          <img
+            src="Images/Imagesheet/Oreo.jpg"
+            alt="A tuxedo cat"
+            width="20%"
+          />
+          <figcaption>
+           What a cute kitty! Oreo can use powerful spells to defeat enemies!
+          </figcaption>
       </figure>
       <figure>
-        <h2 id="krabsheading">Mr. Krabs</h2>
+        <h2 class="character-heading">Mr. Krabs</h2>
         <img
           src="https://png.pngitem.com/pimgs/s/124-1243120_spongebob-characters-mr-krabs-hd-png-download.png"
           alt="Mr. Krabs from Nickelodeon's hit animated cartoon Spongebob Squarepants"
           width="20%"
+          
         />
         <figcaption>
           Mr. Krabs owns the popular restaurant chain "The Krusty Krab". After
@@ -107,8 +92,18 @@
           his adventure. But it won't be cheap!
         </figcaption>
       </figure>
+      <h2 class="character-heading">Gerald the angy</h2>
+        <img
+          src="Images/Imagesheet/Gerald the Angy.jpg"
+          alt="A large green ogre holding a club"
+          width="20%"
+        />
+        <figcaption>
+         Gerald the Angy, The formidable Ogre who kidnapped the Mayor. Wario is going to have give it his all if he wants to defeat this monsterous foe!
+        </figcaption>
+      </figure>
       <figure>
-        <h2 id="krabsheading">Who else?</h2>
+        <h2 class="character-heading">Who else?</h2>
         <img
           src="https://live.staticflickr.com/5217/5471047557_4dc13f5376_n.jpg"
           alt="A man standing beside a question mark"
@@ -117,7 +112,13 @@
         <figcaption>
           Who else will you meet on this adventure? Jump in and find out!
         </figcaption>
+
       </figure>
+      <a href="him.html"><img id="glitch"
+        src="Images/Imagesheet/Untitled-2.jpg"
+        alt="A mysterious glitch..."
+        width="3%"
+        /></a>
     </main>
   </body>
 </html>

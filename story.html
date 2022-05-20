@@ -1,3 +1,8 @@
+<!-- Name: Kaden Mann
+Course: Web dev
+Teacher:Mr. Hardman
+School: PTEC
+Date Last Modified: 4/28/2022-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,80 +12,64 @@
     <link rel="stylesheet" href="stylesheets/style.css" />
     <title>Story</title>
     <style>
-      nav {
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
-        top: 0; /* Stay at the top */
-        left: 0;
-        overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 0px; /* Place content 60px from the top */
-        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: #ffd524;
-        height: 100%;
-        width: 200px;
+      body{
+        background-color: #252525;
+        color: #e5e5e5;
       }
-      * {
-        box-sizing: border-box;
-      }
-      li {
-        margin-bottom: 20px;
-      }
-      h1 {
-        background-color: #ffd524;
-        margin-left: 650px;
-        margin-right: 650px;
-      }
-      h3 {
-        background-color: #ffd524;
-        margin-left: 600px;
-        margin-right: 600px;
-      }
-      main {
-        background-color: #7a3483;
+    /* This styles the section by, changing the background color to yellow, aligning the text to the page center, adding a margin on the left, makes the width of the content 80% of the screen, changes the size of the font by 24px, adds a space between lines of 50px,and changes the font to times new roman sans-serif*/
+      section{
+        background-color: #573e5c;
         text-align: center;
-        margin-left: 400px;
-        margin-right: 400px;
+        margin-left: 100px;
+        width: 80%;
         font-size: 24px;
-        font-family: "Times New Roman", Times, serif;
+        line-height: 50px;
+        font-family: "Times New Roman", Times, sans-serif;
+      
+        color: #e5e5e5;
+        font-weight: bold;
+      }
+     
+      /* This adds color and background color to my heading*/
+      h1{
+        background-color: #573e5c;
+        color: #e5e5e5;
       }
     </style>
   </head>
   <body>
     <header>
       <h1>Story</h1>
-
+      <h3>The story so far...</h3>
       <nav>
         <ul>
           <!--This is the navigation bar. -->
-          <a class="links" href="index.html"><li>Home</li></a>
-          <a class="links" href="story.html"><li>Story</li></a>
-          <a class="links" href="characters.html"><li>Characters</li></a>
-          <a class="links" href="under_construction.html"
-            ><li>Promotional art and teasers</li></a
-          >
-          <a class="links" href="under_construction.html"><li>Reviews</li></a>
-          <a class="links" href="under_construction.html"
-            ><li>Join the Discord server!</li></a
-          >
-          <a class="links" href="download.html"><li>Download now!</li></a>
-          <a class="links" href="under_construction.html"
-            ><li>Technical details</li></a
-          >
+          <a class="nav-links" href="index.html"><li>Home</li></a>
+          <a class="nav-links" href="story.html"><li>Story</li></a>
+          <a class="nav-links" href="characters.html"><li>Characters</li></a>
+          <a class="nav-links" href="under_construction.html"><li>Promotional art and teasers</li></a>
+          <a class="nav-links" href="reviews.html"><li>Reviews</li></a>
+          <a class="nav-links" href="under_construction.html"><li>Join the Discord server!</li></a>
+          <a class="nav-links" href="download.html"><li>Download now!</li></a>
+          <a class="nav-links" href="tech-details.html"><li>Technical details</li></a>
         </ul>
       </nav>
     </header>
     <main>
-      <p>
+      <section>
+        <p>
         Wario wakes up one morning, to a voice in his head telling him to save
         the world!<br />
         After learning the mayor was kidnapped, Wario ventures out of his town,
         and into adventure!<br />
         Now, he is going to have to discover ancient secrets, battle dangerous
-        and violent monsters, and defeat the mighty Gerald the Angy!<br />
+        and violent monsters, and defeat the mighty <br> Gerald the Angy!<br />
         Will <i>you</i> become the hero the kingdom needs?<br />
         <br />
         The story evolves along with the game, so stay tuned for updates!
-      </p>
+        </p>
+      </section>
+    
     </main>
   </body>
 </html>

@@ -3,6 +3,7 @@ I also chose Yellow to represent fun, as my game is meant to be fun to play, and
 I chose purple because it can sometimes represent arrogance, which fits the character of Wario well. */
 
 /*This styles the content in the body tag to be centered, changes the font to Arial, helvetica sans serif, and changes the background color to the color #252525*/
+
 body {
   text-align: center;
   align-content: center;
@@ -51,13 +52,16 @@ nav ul {
   width: 75%;
 
   margin-bottom: 15px;
-  padding: 10px 8px;
+  border: 2px solid transparent;
+  padding: 20px 8px;
 
   background-color: #ded17f  ;
   color: #121212;
 
   font-weight: bolder;
   text-decoration: none;
+
+  transition: ease-in-out 0.7s;
 }
 
 

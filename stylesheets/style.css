@@ -60,6 +60,7 @@ nav ul {
   text-decoration: none;
 }
 
+
 /* Highlights appear when the links are hovered over */
 .nav-links:hover {
   display: inline-block;
@@ -68,6 +69,7 @@ nav ul {
   font-style: italic;
 
   border: 2px solid #ded17f  ;
+  border-radius:50%;
 }
 /*This styles h1s to have a width of 63%, a margin of 15px, a padding of 10px, 0px, and changes the background color to 573e5c*/
 h1 {

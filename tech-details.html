@@ -36,74 +36,73 @@ Date Last Modified: 5/27/2022-->
        margin-left: 550px;
        margin-right: 550px;
     }
+    /*Styles with a border radius of 50 pixels, a width of 20%, and a margin of 20 px*/
     #reggie{
         border-radius: 50px;
         width: 20%;
         margin: 20px;
-        border: 10px;
-        border-color: #573e5c;
 }
-        .flipimage{
+    .flipimage{
             width: 300px;
             height: 200px;
         }
         /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 10px solid #573e5c;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-  margin: 50px;
+    .flip-card {
+      background-color: transparent;
+      width: 300px;
+      height: 200px;
+      border: 10px solid #573e5c;
+      perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+      margin: 50px;
 }
 
 /* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  margin-left: auto;
-  margin-right: auto;
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+      margin-left: auto;
+      margin-right: auto;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-  margin-left: auto;
-  margin-right: auto;
+    .flip-card:hover .flip-card-inner {
+       transform: rotateY(180deg);
+       margin-left: auto;
+       margin-right: auto;
 }
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-  margin-left: auto;
-  margin-right: auto;
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden; /* Safari */
+      backface-visibility: hidden;
+      margin-left: auto;
+      margin-right: auto;
 }
 
 /* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-  margin-left: auto;  
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+      margin-left: auto;  
 }
 
 /* Style the back side */
-.flip-card-back {
-  background-color: rgb(255, 255, 255);
-  color: white;
-  transform: rotateY(180deg);
-  margin-left: auto;
-  margin-right: auto;
+    .flip-card-back {
+      background-color: rgb(255, 255, 255);
+      color: white;
+      transform: rotateY(180deg);
+      margin-left: auto;
+      margin-right: auto;
 }
 </style>
 <body>  
@@ -168,16 +167,11 @@ Date Last Modified: 5/27/2022-->
             Shaggy is property of Warner Bros. Any other characters that are not explicitly copy-righted are my own characters, that anyone can use as long as I am properly credited.
         </p>
         <div>
-            <p id = ninjas>
-            Nintendo ninjas, please don't kill me.
-            </p>
+            <p id = ninjas>Nintendo ninjas, please don't kill me.</p>
          <img id="reggie" src="https://i.ytimg.com/vi/ckQ9wzAcYLU/maxresdefault.jpg" alt="Image of a nintendo ninja"></div>
-          
-            
-          </div>
+           </div>
         </div>
-        </div>
-        
+      </div>
     </main>
-</body>
+  </body>
 </html>
